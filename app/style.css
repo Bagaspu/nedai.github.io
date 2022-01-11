@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  position: fixed;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  color: black;
+  top: 50%;
+  left: 50%;
+}
+
+label {
+  color: rgb(15, 125, 189);
+  text-align: left;
+}
+
+input {
+  color: black;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid black;
+  width: 60vw;
+  margin-bottom: 15px;
+}
+#sub_btn {
+  background-color: rgb(69, 209, 209);
+  color: white;
+  width: 80px;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.machine {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  user-select: none;
+}
+
+.machine * {
+  position: absolute;
+}
+#heart {
+  bottom: 0;
+  left: 20px;
+  top: 50%;
+  height: 120px;
+}
+#needa {
+  bottom: 0;
+  right: 0;
+}
+#time {
+  color: black;
+  bottom: -10px;
+  left: 100px;
+  font-size: 10px;
+}
+.in_middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10000;
+  width: 80vw;
+  height: 70vh;
+  overflow: scroll;
+}
+
+.in_middle * {
+  position: static;
+}
+
+.in_middle::-webkit-scrollbar {
+  display: block;
+}
+.in_middle::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.in_middle::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: cyan;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  padding: 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+.cont * {
+  position: absolute;
+}
+
+.cont {
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.battery {
+  left: 50%;
+  width: 100px;
+  top: 7%;
+  transform: translateX(-50%);
+  font-size: xx-small;
+}
+#baterai {
+  left: 65%;
+  top: 7%;
+  width: 100px;
+  font-size: xx-small;
+}
+.jam {
+  width: 150px;
+  top: 30px;
+}
+
+.internet {
+  top: 100px;
+  left: 17.5px;
+  width: 120px;
+}
+
+.temp {
+  top: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 10px;
+}
+
+.temp * {
+  position: static;
+}
+.messages {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-height: 600px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 15px;
+  z-index: 1060;
+}
+.messages::-webkit-scrollbar {
+  display: none;
+}
+
+.usermsg {
+  text-align: right;
+  width: 100px;
+  color: rgb(113, 113, 235);
+}
+
+.jmsg {
+  text-align: left;
+  margin-top: 5px;
+  width: 300px;
+  color: rgb(245, 61, 61);
+}
+.commands {
+  display: none;
+  background-color: white;
+}
+
+.commands p {
+  color: rgb(197, 0, 0);
+}
+
+#start_ned_btn {
+  border: none;
+  outline: none;
+  position: fixed;
+  left: 52%;
+  transform: translateX(0);
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#start_ned_btn img {
+  height: 100px;
+}
+.kalender {
+  display: none;
+}

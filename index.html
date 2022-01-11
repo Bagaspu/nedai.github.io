@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/style.css">
+    <title>NedAi</title>
+</head>
+<body>
+    <h1>N e d A I</h1>
+
+    <audio src="/sound.mp3" id="turn_on"></audio>
+
+    <div class="machine">
+        <div class="jam cont">
+            <img src="/img/clock.png" class="icon">
+            <p id="time"></p>
+        </div>
+        <div class="internet cont">
+            <img src="/img/wifi.png" class="icon">
+            <p id="wifi"></p>
+        </div>
+        <div class="battery cont">
+            <img src="/img/battery.png" class="icon">
+            <p id="baterai"></p>
+        </div>
+        <div class="temp">
+            <p id="location"></p>
+            <p id="country"></p>
+            <p id="weatherT"></p>
+            <p id="weatherD"></p>
+            <img src="" id="weatherIcon"/>
+            <p id="oTemp"></p>
+            <p id="feelLikeTemp"></p>
+            <p id="minT"></p>
+            <p id="maxT"></p>
+        </div>
+
+        <div class="kalender">
+            <p id="month"></p>
+            <p id="day"></p>
+            <p id="date"></p>
+            <p id="year"></p>
+        </div>
+        
+        <img src="img/giphy.gif" id="needa">
+        <img src="img/heart2.gif" id="heart">
+
+    </div>
+    <<div id="start_ned_btn" title="Start NedAI">
+        <img src="img/ezgif.com-gif-maker (3).gif" alt="on">
+    </div>-->
+    <div class="ned_setup in_middle">
+        <label for="">Pengguna</label>
+        <input type="text">
+        <br>
+        <label for="">Lokasi</label>
+        <input type="text">
+        <br>
+        <label for="">Instagram</label>
+        <input type="text">
+        <br>
+        <label for="">Facebook</label>
+        <input type="text">
+        <br>
+        <label for="">Gmail</label>
+        <input type="text">
+        <br>
+        <button id="sub_btn">Masuk</button>
+    </div>
+
+    <div class="messages"></div>
+    <div class="commands in_middle"></div>
+    
+    <button id="start" style="display:none;">Start</button>
+    <button id="end" style="display: none;">Stop</button>
+    <button id="speak" style="display: none;">Speak</button>
+    </button>
+    
+    <script src="app/app.js"></script>
+    <noscript></noscript>
+</body>
+</html>
